@@ -129,3 +129,5 @@ EE для стандартизации развертывания приложе
 [Дескриптор развертывания](mds/deployment_descriptors.md)
 
 [Java EE 7 спецификации](mds/java_ee7_specifications.md)
+
+[@Inject](mds/cdi/inject.md)
