@@ -130,4 +130,9 @@ EE для стандартизации развертывания приложе
 
 [Java EE 7 спецификации](mds/java_ee7_specifications.md)
 
+#### CDI
 [@Inject](mds/cdi/inject.md)
+
+[Scope](mds/cdi/scope.md)
+
+[Interceptor](mds/cdi/interceptors.md)
