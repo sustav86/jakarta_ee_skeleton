@@ -4,3 +4,49 @@
 или запись в журнал. По своей природе перехватчики не осведомлены о настоящей
 семантике перехватываемых действий и поэтому не подходят для отделения задач,
 связанных с бизнесом. Для декораторов характерно обратное.
+
+* Декораторы — общий шаблон проектирования, разработанный группой Gang
+of Four. Идея состоит в том, чтобы взять класс и обернуть вокруг него другой класс
+(то есть декорировать его). Таким образом, при вызове декорированного класса вы
+всегда проходите через окружающий его декоратор, прежде чем достигнете целевого класса. 
+Декораторы позволяют добавлять бизнес-методу дополнительную
+логику. Они не способны решать технические задачи, которые являются сквозными
+и касаются многих несхожих типов. Хотя перехватчики и декораторы во многом
+сходны, они дополняют друг друга.
+
+@javax.decorator.Decorator
+```xml
+    @Decorator
+    public class FromEightToThirteenDigitsDecorator implements NumberGenerator {
+        @Inject
+        @Delegate
+        private NumberGenerator numberGenerator;
+
+        public String generateNumber() {
+            String issn = numberGenerator.generateNumber();
+            String isbn = "13-84356" + issn.substring(1);
+            returnisbn;
+        }
+    }
+```
+* Декораторы должны иметь точку внедрения делегата (аннотированную @Delegate)
+такого же типа, как и компоненты, которые они декорируют (здесь интерфейс
+NumberGenerator). Это позволяет объекту вызывать объект-делегат (например, целевой
+компонент IssnNumberGenerator), а затем, в свою очередь, вызывать на него любой
+бизнес-метод (например, numberGenerator.generateNumber() в листинге 2.34).
+
+* По умолчанию все декораторы отключены, как и альтернативы с перехватчиками.
+Декораторы необходимо активизировать в файле beans.xml, как показано в листинге 2.35.
+```xml
+<beansxmlns="http://xmlns.jcp.org/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
+version="1.1" bean-discovery-mode="all">
+<decorators>
+    <class>org.agoncal.book.javaee7.chapter02.FromEightToThirteenDigitsDecorator</class>
+</decorators>
+</beans>
+```
+* Если в приложении присутствуют и перехватчики, и декораторы, то перехват-
+чики вызываются в первую очередь.
