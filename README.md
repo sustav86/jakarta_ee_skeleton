@@ -138,3 +138,5 @@ EE для стандартизации развертывания приложе
 [Interceptor](mds/cdi/interceptors.md)
 
 [Decorator](mds/cdi/decorators.md)
+
+[Resume](mds/cdi/resume.md)
