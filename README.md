@@ -139,6 +139,10 @@ EE для стандартизации развертывания приложе
 
 [Decorator](mds/cdi/decorators.md)
 
+[События (Event)](mds/cdi/event.md)
+
+[@Named](mds/cdi/component_expression_language.md)
+
 [Resume](mds/cdi/resume.md)
 
 #### Bean Validation
