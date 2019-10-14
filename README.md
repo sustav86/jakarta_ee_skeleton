@@ -140,3 +140,10 @@ EE для стандартизации развертывания приложе
 [Decorator](mds/cdi/decorators.md)
 
 [Resume](mds/cdi/resume.md)
+
+#### Bean Validation
+[Валидация](mds/validation/validation.md)
+
+[Ограничения](mds/validation/restrictions.md)
+
+[Встроенные ограничения](mds/validation/build_restrictions.md)
