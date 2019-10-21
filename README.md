@@ -190,3 +190,11 @@ EE для стандартизации развертывания приложе
 [Объектно-реляционное отображение](mds/jpa/orm_jpa.md)
 
 [Выполнение запросов к сущностям](mds/jpa/request_entity_jpa.md)
+
+[Единица сохраняемости](mds/jpa/conservation_unit_jpa.md)
+
+[Жизненный цикл сущности и обратные вызовы](mds/jpa/entity_lifecycle_jpa.md)
+
+[Интеграция с Bean Validation](mds/jpa/integration-bean_valid_jpa.md)
+
+[Обзор спецификации JPA](mds/jpa/spec_jpa.md)
