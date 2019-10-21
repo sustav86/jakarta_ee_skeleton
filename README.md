@@ -179,3 +179,14 @@ EE для стандартизации развертывания приложе
 [Валидация методов](mds/validation/method_validation.md)
 
 [Валидация групп](mds/validation/group_validation.md)
+
+####Java Persistence API
+[Введение](mds/jpa/introduction_jpa.md)
+
+[Понятие сущностей](mds/jpa/entity_jpa.md)
+
+[Анатомия сущности](mds/jpa/anatomy_entity_jpa.md)
+
+[Объектно-реляционное отображение](mds/jpa/orm_jpa.md)
+
+[Выполнение запросов к сущностям](mds/jpa/request_entity_jpa.md)
