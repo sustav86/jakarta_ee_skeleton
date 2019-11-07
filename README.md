@@ -198,3 +198,39 @@ EE для стандартизации развертывания приложе
 [Интеграция с Bean Validation](mds/jpa/integration-bean_valid_jpa.md)
 
 [Обзор спецификации JPA](mds/jpa/spec_jpa.md)
+
+####ORM
+[Объектно-реляционное отображение](mds/orm/orm.md)
+
+####Table
+[@Table](mds/orm/table_orm.md)
+
+[@SecondaryTable](mds/orm/secondary_table_orm.md)
+
+[Первичные ключи](mds/orm/keys.md)
+
+[Составные первичные ключи](mds/orm/composite_keys.md)
+
+[@EmbeddedId](mds/orm/embeded_id.md)
+
+[@IdClass](mds/orm/id_class.md)
+
+[Атрибуты](mds/orm/attributes.md)
+
+[@Basic](mds/orm/basic.md)
+
+[@Column](mds/orm/column.md)
+
+[@Temporal](mds/orm/temporal.md)
+
+[@Enumerated](mds/orm/enumerated.md)
+
+[Тип доступа](mds/orm/type_access.md)
+
+[Коллекции базовых типов](mds/orm/collection_type.md)
+
+[Отображение базовых типов](mds/orm/base_type.md)
+
+[Встраиваемые объекты](mds/orm/embedded_obj.md)
+
+[Отображение связей](mds/orm/relation.md)
