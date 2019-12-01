@@ -234,3 +234,35 @@ EE для стандартизации развертывания приложе
 [Встраиваемые объекты](mds/orm/embedded_obj.md)
 
 [Отображение связей](mds/orm/relation.md)
+
+[Связи в реляционных базах данных](mds/orm/db_relation.md)
+
+[Связи между сущностями](mds/orm/db_relation_ent.md)
+
+[Однонаправленные и двунаправленные ассоциации](mds/orm/db_relation_one_many.md)
+
+[Однонаправленная связь с использованием @OneToOne](mds/orm/oneToOne.md)
+
+[Однонаправленная связь с использованием @OneToMany](mds/orm/oneToMany.md)
+
+[Двунаправленная связь с использованием @ManyToMany](mds/orm/manyToManyBi.md)
+
+[Выборка связей](mds/orm/select_link.md)
+
+[Упорядочение связей](mds/orm/order_by.md)
+
+[Отображение наследования](mds/orm/map_inherit.md)
+
+[Стратегии наследования](mds/orm/inherit_stratagy.md)
+
+[Иерархическая стратегия «одна таблица на класс»](mds/orm/inherit_one_class.md)
+
+[Стратегия «соединенный подкласс»](mds/orm/inherit_one_subclass.md)
+
+[Стратегия «таблица на конкретный класс»](mds/orm/inherit_table_class.md)
+
+[Переопределение атрибутов](mds/orm/over_attribut.md)
+
+[Типы классов в иерархии наследования](mds/orm/type_inherit.md)
+
+[Резюме](mds/orm/orm_resume.md)
